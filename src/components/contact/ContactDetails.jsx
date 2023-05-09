@@ -1,20 +1,28 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 
 const contacts = [
-	{
-		id: 1,
-		name: 'Your Address, Your City, Your Country',
-		icon: <FiMapPin />,
-	},
+	// {
+	// 	id: 1,
+	// 	name: '5 villa Nieuport, 75013 Paris, France',
+	// 	icon: <FiMapPin />,
+	// },
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'jules.rubin.jr@gmail.com',
 		icon: <FiMail />,
+		link: 'mailto:jules.rubin.jr@gmail.com',
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: 'jules.rubin@efrei.net',
+		icon: <FiMail />,
+		link: 'mailto:jules.rubin@efrei.net',
+	},
+	{
+		id: 4,
+		name: '07 69 82 83 71',
 		icon: <FiPhone />,
+		link: 'tel:+33769828371',
 	},
 ];
 
@@ -29,10 +37,14 @@ const ContactDetails = () => {
 					{contacts.map((contact) => (
 						<li className="flex " key={contact.id}>
 							<i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">
-								{contact.icon}
+								<a href={contact.link? contact.link : null}>
+									{contact.icon}
+								</a>
 							</i>
 							<span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
-								{contact.name}
+								<a href={contact.link? contact.link : null}> 
+									{contact.name}
+								</a>
 							</span>
 						</li>
 					))}
