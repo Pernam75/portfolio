@@ -18,6 +18,10 @@ import MealMateImage1 from '../images/MealMate/meal-mate-1.jpg';
 import MealMateImage2 from '../images/MealMate/meal-mate-2.jpg';
 import MealMateImage3 from '../images/MealMate/meal-mate-3.jpg';
 
+import GeoCellImage1 from '../images/GeoCell/geo-cell-1.jpg';
+import GeoCellImage2 from '../images/GeoCell/geo-cell-2.jpg';
+import GeoCellImage3 from '../images/GeoCell/geo-cell-3.jpg';
+
 
 
 // Import icons
@@ -385,7 +389,125 @@ const projectDatas = {
 			},
 		],
 		}
-	}
+	},
+	"geo-cell": {
+		ProjectHeader: {
+		title: 'GeoCell',
+		publishDate: 'Oct 23, 2022',
+		tags: 'Machine-Learning / Frontend',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'GeoCell Home Page',
+			img: GeoCellImage1,
+		},
+		{
+			id: 2,
+			title: 'GeoCell Mobile Mockup',
+			img: GeoCellImage2,
+		},
+		{
+			id: 3,
+			title: 'GeoCell Traffic',
+			img: GeoCellImage3,
+		},
+	],
+	ProjectInfo: {
+		ClientHeading: 'About This Project',
+		CompanyInfo: [
+			{
+				id: 1,
+				title: 'Level',
+				details: 'M1 First Semester',
+			},
+			{
+				id: 2,
+				title: 'Class',
+				details: 'Data Science and AI Datacamp',
+			},
+		],
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails:
+		"The aim of GeoCell is to provide a real-time traffic prediction in Beijing based on the user's location and the time of day.",
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'Python',
+					'Flask',
+					'React',
+					'Amazon Web Services (Amplify & Elastic Beanstalk)',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Challenge',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+				"GeoCell is a project that aimed to provide real-time traffic information and personalized recommendations for the best routes to take in the city of Beijing. The project involved developing a machine learning algorithm that utilizes geospatial data from Beijing taxis in 2013 to predict the congestion zones in the city (KNN algorithm) and then compute the travel time to go from a point A to a point B. This algorithm helps to anticipate congestion and provides personalized route recommendations for users. In addition, the project required hosting the solution, which provided an opportunity to gain experience with AWS cloud technologies."
+			},
+			{
+				id: 2,
+				details:
+				"The project involved a full-stack development approach, from developing the machine learning model to designing and implementing the frontend and backend. The backend was developed using Python and Flask, and the frontend was implemented using React. The hosting and deployment of the solution were handled using Amazon Web Services (AWS) Amplify and Elastic Beanstalk. This project provided an excellent opportunity to develop skills in developing and deploying a complete solution using cloud technologies."
+			},
+			{
+				id: 3,
+				details:
+				"Overall, the GeoCell project was a valuable learning experience in developing a complete solution, from designing and implementing the algorithm to creating the frontend and backend and deploying the application to the cloud. The project allowed for the development of skills in machine learning, cloud technologies, and full-stack development, making it an excellent addition to my portfolio."
+			},
+		],
+		SocialSharingHeading: 'See More',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Github',
+				icon: <FiGithub/>,
+				url: "https://github.com/Pernam75/traffic_congestion"
+			},
+			{
+				id: 2,
+				name: 'Project Website',
+				icon: <FiGlobe/>,
+				url: "https://www.geocell.one"
+			},
+			{
+				id: 3,
+				name: 'Project Report',
+				icon: <FiFileText/>,
+				url: "https://efrei365net-my.sharepoint.com/:b:/g/personal/jules_rubin_efrei_net/EZD7zP4BNNdMseDGncSwo2kBXfeLcVpNORYtZ6_p0RuBaA?e=hbCagM"
+			},
+		],
+	},
+	RelatedProject: {
+		title: 'Related Projects',
+		Projects: [
+			{
+				id: 1,
+				title: 'Street Workout Helper',
+				img: StreetWorkoutHelperImage1,
+				projectKey: 'street-workout-helper',
+			},
+			{
+				id: 2,
+				title: 'Web Application',
+				img: Image5,
+			},
+			{
+				id: 3,
+				title: 'UI Design',
+				img: Image6,
+			},
+			{
+				id: 4,
+				title: 'Kabul Mobile App UI',
+				img: Image3,
+			},
+		],
+		}
+	},
 };
 
 export const getSingleProjectData = ( projectKey ) => {

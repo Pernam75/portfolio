@@ -8,6 +8,7 @@
 import StreetWorkoutHelperImage1 from '../images/StreetWorkout/street-workout-helper-1.jpg';
 import GuideMeImage1 from '../images/GuideMe/guide-me-1.jpg';
 import MealMateImage1 from '../images/MealMate/meal-mate-1.jpg';
+import GeoCellImage1 from '../images/GeoCell/geo-cell-1.jpg';
 
 export const projectsData = [
 	{
@@ -27,8 +28,15 @@ export const projectsData = [
 	{
 		id: 9,
 		title: 'MealMate',
-		category: 'Mobile Application',
+		category: 'Mobile Application / Machine-Learning',
 		img: MealMateImage1,
 		projectKey: 'meal-mate',
+	},
+	{
+		id: 10,
+		title: 'GeoCell',
+		category: 'Website / Machine-Learning',
+		img: GeoCellImage1,
+		projectKey: 'geo-cell',
 	}
 ];
