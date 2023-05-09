@@ -1,11 +1,12 @@
 import { useState, createContext } from 'react';
-import { singleProjectData as singleProjectDataJson } from '../data/singleProjectData';
+import { getSingleProjectData } from '../data/singleProjectData';
 
 const SingleProjectContext = createContext();
 
-export const SingleProjectProvider = ({ children }) => {
+export const SingleProjectProvider = ({ children, projectKey }) => {
+	console.log( "SingleProjectContext.jsx: SingleProjectProvider: projectKey:", projectKey)
 	const [singleProjectData, setSingleProjectData] = useState(
-		singleProjectDataJson
+		getSingleProjectData( projectKey )
 	);
 
 	return (
