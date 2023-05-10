@@ -1,11 +1,6 @@
-import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+import { FiPhone, FiMail } from 'react-icons/fi';
 
 const contacts = [
-	// {
-	// 	id: 1,
-	// 	name: '5 villa Nieuport, 75013 Paris, France',
-	// 	icon: <FiMapPin />,
-	// },
 	{
 		id: 2,
 		name: 'jules.rubin.jr@gmail.com',

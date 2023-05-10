@@ -9,6 +9,7 @@ import StreetWorkoutHelperImage1 from '../images/StreetWorkout/street-workout-he
 import GuideMeImage1 from '../images/GuideMe/guide-me-1.jpg';
 import MealMateImage1 from '../images/MealMate/meal-mate-1.jpg';
 import GeoCellImage1 from '../images/GeoCell/geo-cell-1.jpg';
+import InternshipSportslabImage1 from '../images/InternshipSportslab/internship-sportslab-1.jpg';
 
 export const projectsData = [
 	{
@@ -38,5 +39,12 @@ export const projectsData = [
 		category: 'Website / Machine-Learning',
 		img: GeoCellImage1,
 		projectKey: 'geo-cell',
-	}
+	},
+	{
+		id: 11,
+		title: 'Internship at Decathlon Sportslab',
+		category: 'Internship / Machine-Learning',
+		img: InternshipSportslabImage1,
+		projectKey: 'internship-sportslab',
+	},
 ];

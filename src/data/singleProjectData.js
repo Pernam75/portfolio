@@ -1,8 +1,5 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
 import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
 
@@ -22,6 +19,10 @@ import GeoCellImage1 from '../images/GeoCell/geo-cell-1.jpg';
 import GeoCellImage2 from '../images/GeoCell/geo-cell-2.jpg';
 import GeoCellImage3 from '../images/GeoCell/geo-cell-3.jpg';
 
+import InternshipSportslabImage1 from '../images/InternshipSportslab/internship-sportslab-1.jpg';
+import InternshipSportslabImage2 from '../images/InternshipSportslab/internship-sportslab-2.jpg';
+import InternshipSportslabImage3 from '../images/InternshipSportslab/internship-sportslab-3.jpg';
+
 
 
 // Import icons
@@ -32,7 +33,7 @@ import {
 	FiVideo,
 	FiGlobe,
 	// FiInstagram,
-	// FiLinkedin,
+	FiLinkedin,
 	// FiTwitter,
 	// FiYoutube,
 } from 'react-icons/fi';
@@ -478,6 +479,121 @@ const projectDatas = {
 				name: 'Project Report',
 				icon: <FiFileText/>,
 				url: "https://efrei365net-my.sharepoint.com/:b:/g/personal/jules_rubin_efrei_net/EZD7zP4BNNdMseDGncSwo2kBXfeLcVpNORYtZ6_p0RuBaA?e=hbCagM"
+			},
+		],
+	},
+	RelatedProject: {
+		title: 'Related Projects',
+		Projects: [
+			{
+				id: 1,
+				title: 'Street Workout Helper',
+				img: StreetWorkoutHelperImage1,
+				projectKey: 'street-workout-helper',
+			},
+			{
+				id: 2,
+				title: 'Web Application',
+				img: Image5,
+			},
+			{
+				id: 3,
+				title: 'UI Design',
+				img: Image6,
+			},
+			{
+				id: 4,
+				title: 'Kabul Mobile App UI',
+				img: Image3,
+			},
+		],
+		}
+	},
+	"internship-sportslab": {
+		ProjectHeader: {
+		title: 'Internship at Decathlon SportsLab',
+		publishDate: 'Mar 31, 2023',
+		tags: 'Internship / Machine-Learning',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'Decathlon SportsLab',
+			img: InternshipSportslabImage1,
+		},
+		{
+			id: 2,
+			title: 'Decathlon SportsLab',
+			img: InternshipSportslabImage2,
+		},
+		{
+			id: 3,
+			title: 'Decathlon SportsLab',
+			img: InternshipSportslabImage3,
+		},
+	],
+	ProjectInfo: {
+		ClientHeading: 'About This Internship',
+		CompanyInfo: [
+			{
+				id: 1,
+				title: 'Level',
+				details: 'M1 First Semester',
+			},
+			{
+				id: 2,
+				title: 'Class',
+				details: 'Data Science and AI 4th Year Internship',
+			},
+		],
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails:
+		"During my internship at Decathlon SportsLab, I worked on a project that aimed to develop a machine learning algorithm to predict the clothing size of a customer based on a picture of the customer. The project involved developing a machine learning algorithm that utilizes computer vision to extract the customer's measurements from a picture and then use these measurements to predict the customer's clothing size.",
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'Python',
+					'Pandas',
+					'Numpy',
+					'OpenCV',
+					'Keras',
+					'Tensorflow',
+					'XGBoost',
+					'Meshlab',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Challenge',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+				"During my 5-month internship at Decathlon Sportslab, I had the opportunity to work on an exciting project, size recommendation. The objective of this project was to recommend a size to a user in a given garment based on their photo. I worked in various fields related to data, including Data Analysis, Machine-Learning, Data Engineering, and Computer Vision."
+			},
+			{
+				id: 2,
+				details:
+				"One of the main advantages of this project was its practicality. The size recommendation system has the potential to save time for customers and retailers alike by reducing the number of returns and exchanges due to sizing issues. Additionally, it provided me with a valuable experience in working with real-world data and developing practical solutions to problems faced by businesses."
+			},
+			{
+				id: 3,
+				details:
+				"Through this project, I was able to develop my skills in Python programming, Machine-Learning, Feature-Engineering, Meshlab, and Computer Vision. I gained experience in working with large datasets and developing models that can be used to make accurate predictions. This internship provided me with a unique opportunity to learn about how research is conducted in a large French company, and to work on a project that has the potential to make a real impact on the retail industry."
+			},
+			{
+				id: 4,
+				details:
+				"Overall, my experience working on Smartsize was both challenging and rewarding. I gained valuable skills that I will carry with me throughout my career, and I was able to work on a project that has the potential to make a positive impact on the retail industry."
+			},
+		],
+		SocialSharingHeading: 'See More',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Linkedin',
+				icon: <FiLinkedin/>,
+				url: "https://www.linkedin.com/posts/jules-rubin_decathlon-datascience-stage-activity-7051549236835819521-QroA?utm_source=share&utm_medium=member_desktop"
 			},
 		],
 	},
