@@ -3,27 +3,33 @@ import Image3 from '../images/mobile-project-2.jpg';
 import Image5 from '../images/web-project-1.jpg';
 import Image6 from '../images/ui-project-2.jpg';
 
-import StreetWorkoutHelperImage1 from '../images/StreetWorkout/street-workout-helper-1.jpg';
-import StreetWorkoutHelperImage2 from '../images/StreetWorkout/street-workout-helper-2.jpg';
-import StreetWorkoutHelperImage3 from '../images/StreetWorkout/street-workout-helper-3.jpg';
+import StreetWorkoutHelperImage1 from '../images/projects/StreetWorkout/street-workout-helper-1.jpg';
+import StreetWorkoutHelperImage2 from '../images/projects/StreetWorkout/street-workout-helper-2.jpg';
+import StreetWorkoutHelperImage3 from '../images/projects/StreetWorkout/street-workout-helper-3.jpg';
 
-import GuideMeImage1 from '../images/GuideMe/guide-me-1.jpg';
-import GuideMeImage2 from '../images/GuideMe/guide-me-2.jpg';
-import GuideMeImage3 from '../images/GuideMe/guide-me-3.jpg';
+import GuideMeImage1 from '../images/projects/GuideMe/guide-me-1.jpg';
+import GuideMeImage2 from '../images/projects/GuideMe/guide-me-2.jpg';
+import GuideMeImage3 from '../images/projects/GuideMe/guide-me-3.jpg';
 
-import MealMateImage1 from '../images/MealMate/meal-mate-1.jpg';
-import MealMateImage2 from '../images/MealMate/meal-mate-2.jpg';
-import MealMateImage3 from '../images/MealMate/meal-mate-3.jpg';
+import MealMateImage1 from '../images/projects/MealMate/meal-mate-1.jpg';
+import MealMateImage2 from '../images/projects/MealMate/meal-mate-2.jpg';
+import MealMateImage3 from '../images/projects/MealMate/meal-mate-3.jpg';
 
-import GeoCellImage1 from '../images/GeoCell/geo-cell-1.jpg';
-import GeoCellImage2 from '../images/GeoCell/geo-cell-2.jpg';
-import GeoCellImage3 from '../images/GeoCell/geo-cell-3.jpg';
+import GeoCellImage1 from '../images/projects/GeoCell/geo-cell-1.jpg';
+import GeoCellImage2 from '../images/projects/GeoCell/geo-cell-2.jpg';
+import GeoCellImage3 from '../images/projects/GeoCell/geo-cell-3.jpg';
 
-import InternshipSportslabImage1 from '../images/InternshipSportslab/internship-sportslab-1.jpg';
-import InternshipSportslabImage2 from '../images/InternshipSportslab/internship-sportslab-2.jpg';
-import InternshipSportslabImage3 from '../images/InternshipSportslab/internship-sportslab-3.jpg';
+import InternshipSportslabImage1 from '../images/projects/InternshipSportslab/internship-sportslab-1.jpg';
+import InternshipSportslabImage2 from '../images/projects/InternshipSportslab/internship-sportslab-2.jpg';
+import InternshipSportslabImage3 from '../images/projects/InternshipSportslab/internship-sportslab-3.jpg';
 
+import MicrocontrollerImage1 from '../images/projects/Microcontroller/microcontroller-1.jpg';
+import MicrocontrollerImage2 from '../images/projects/Microcontroller/microcontroller-2.jpg';
+import MicrocontrollerImage3 from '../images/projects/Microcontroller/microcontroller-3.jpg';
 
+import FiniteAutomatonImage1 from '../images/projects/FiniteAutomaton/finite-automaton-1.jpg';
+import FiniteAutomatonImage2 from '../images/projects/FiniteAutomaton/finite-automaton-2.jpg';
+import FiniteAutomatonImage3 from '../images/projects/FiniteAutomaton/finite-automaton-3.jpg';
 
 // Import icons
 import {
@@ -624,6 +630,224 @@ const projectDatas = {
 		],
 		}
 	},
+	"microcontroller": {
+		ProjectHeader: {
+		title: 'Microcontroller',
+		publishDate: 'Jun, 9 2022',
+		tags: 'Electronic',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'Microcontroller ',
+			img: MicrocontrollerImage1,
+		},
+		{
+			id: 2,
+			title: 'Microcontroller FGPA',
+			img: MicrocontrollerImage2,
+		},
+		{
+			id: 3,
+			title: 'Microcontroller Abstract',
+			img: MicrocontrollerImage3,
+		},
+	],
+	ProjectInfo: {
+		ClientHeading: 'About This Project',
+		CompanyInfo: [
+			{
+				id: 1,
+				title: 'Level',
+				details: 'L3 First Semester',
+			},
+			{
+				id: 2,
+				title: 'Class',
+				details: 'Digital Circuit Design',
+			},
+		],
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails: "The aim of tis project is to design and analyse a logical circuit (sequential and combinational) and a state diagram, and then performing simulations and synthesis on a programmable component.",
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'VHDL',
+					'Xilinx Vivado',
+					'Artix-35T FPGA',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Challenge',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+				"The Microcontroller project involved designing and analyzing a logic circuit (sequential and combinational) and state graph, followed by simulations and synthesis on a programmable component. The project aimed to distinguish the use cases of programmable components in comparison to CPUs, GPUs, ASICs, and MCUs.",
+			},
+			{
+				id: 2,
+				details:
+				"The project provided an opportunity to configure a Field-Programmable Gate Array (FPGA) and understand the various stages of an Electronic Design Automation (EDA) tool. Additionally, it involved describing, simulating, and synthesizing a combinational and sequential system using the VHDL (VHSIC Hardware Description Language) programming language.",
+			},
+			{
+				id: 3,
+				details:
+				"The project focused on applying essential design rules for logical circuits and mastering optimization techniques for programmable components. By working on the Microcontroller project, I gained practical experience in VHDL and electronics, further strengthening my understanding of digital logic and programmable devices."
+			},
+			{
+				id: 4,
+				details:
+				"Overall, this project allowed me to develop skills in circuit design, VHDL programming, and the optimization of programmable components. It provided a solid foundation in understanding the inner workings of microcontrollers and their applications in various electronic systems.",
+			},
+		],
+		SocialSharingHeading: 'See More',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Github',
+				icon: <FiGithub/>,
+				url: "https://github.com/Pernam75/Microcontroleur-VHDL",
+			},
+		],
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'Street Workout Helper',
+					img: StreetWorkoutHelperImage1,
+					projectKey: 'street-workout-helper',
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: Image5,
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: Image6,
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: Image3,
+				},
+			],
+		}
+	},
+	},
+	"finite-automaton": {
+		ProjectHeader: {
+		title: 'Finite Automaton and Regular Expressions',
+		publishDate: 'May 8, 2021',
+		tags: 'Console Application / Mathematics',
+	},
+	ProjectImages: [
+		{
+			id: 1,
+			title: 'Finite Automaton',
+			img: FiniteAutomatonImage1,
+		},
+		{
+			id: 2,
+			title: 'Finite Automaton',
+			img: FiniteAutomatonImage2,
+		},
+		{
+			id: 3,
+			title: 'Finite Automaton',
+			img: FiniteAutomatonImage3,
+		},
+	],
+	ProjectInfo: {
+		ClientHeading: 'About This Project',
+		CompanyInfo: [
+			{
+				id: 1,
+				title: 'Level',
+				details: 'L2 Second Semester',
+			},
+			{
+				id: 2,
+				title: 'Class',
+				details: 'Mathematics for Informatics',
+			},
+		],
+		ObjectivesHeading: 'Objective',
+		ObjectivesDetails: "",
+		Technologies: [
+			{
+				title: 'Tools & Technologies',
+				techs: [
+					'Java',
+					'IntelliJ IDEA',
+				],
+			},
+		],
+		ProjectDetailsHeading: 'Challenge',
+		ProjectDetails: [
+			{
+				id: 1,
+				details:
+				"The Finite Automaton and Regular Expression project involved developing a program that performs several steps related to finite automata and regular expressions. The program allows for reading an automaton from a file, storing it in memory, and displaying it on the screen. One of the key functionalities is to test the presence of epsilon transitions in the automaton, indicating an asynchronous automaton. If the automaton is not a complete deterministic one, the program can generate an equivalent complete deterministic automaton."
+			},
+			{
+				id: 2,
+				details:
+				"Another important aspect of the project is the calculation of the minimal equivalent automaton. This involves reducing the automaton to its smallest form while preserving its language recognition capabilities. The program also allows for testing word recognition within the automaton. Additionally, it enables the creation of an automaton that recognizes the complement language and testing word recognition within that language as well.",
+			},
+			{
+				id: 3,
+				details:
+				"By implementing this project, I further developed my skills in Java programming and object-oriented programming (OOP). The use of OOP principles allowed for the modular design and organization of the program, making it easier to manage and maintain. Working on this project enhanced my understanding of finite automata, regular expressions, and the algorithms involved in automaton transformation and language recognition.",
+			},
+			{
+				id: 4,
+				details:
+				"Overall, the Finite Automaton and Regular Expression project provided a hands-on learning experience in implementing fundamental concepts of automata theory and gave me practical exposure to Java programming and OOP. It strengthened my problem-solving abilities and deepened my understanding of automaton operations, all of which will be valuable assets in future software development projects.",
+			},
+		],
+		SocialSharingHeading: 'See More',
+		SocialSharing: [
+			{
+				id: 1,
+				name: 'Github',
+				icon: <FiGithub/>,
+				url: "https://github.com/Pernam75/finite-automatons",
+			},
+		],
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'Street Workout Helper',
+					img: StreetWorkoutHelperImage1,
+					projectKey: 'street-workout-helper',
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: Image5,
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: Image6,
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: Image3,
+				},
+			],
+		}
+	},
+	},
+	
 };
 
 export const getSingleProjectData = ( projectKey ) => {
