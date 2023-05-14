@@ -31,6 +31,10 @@ import FiniteAutomatonImage1 from '../images/projects/FiniteAutomaton/finite-aut
 import FiniteAutomatonImage2 from '../images/projects/FiniteAutomaton/finite-automaton-2.jpg';
 import FiniteAutomatonImage3 from '../images/projects/FiniteAutomaton/finite-automaton-3.jpg';
 
+import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall-1.jpg';
+import FloydWarshallImage2 from '../images/projects/FloydWarshall/floyd-warshall-2.jpg';
+import FloydWarshallImage3 from '../images/projects/FloydWarshall/floyd-warshall-3.jpg';
+
 // Import icons
 import {
 	// FiFacebook,
@@ -632,85 +636,87 @@ const projectDatas = {
 	},
 	"microcontroller": {
 		ProjectHeader: {
-		title: 'Microcontroller',
-		publishDate: 'Jun, 9 2022',
-		tags: 'Electronic',
-	},
-	ProjectImages: [
-		{
-			id: 1,
-			title: 'Microcontroller ',
-			img: MicrocontrollerImage1,
+				title: 'Microcontroller',
+				publishDate: 'Dec, 6 2021',
+				tags: 'Electronic',
 		},
-		{
-			id: 2,
-			title: 'Microcontroller FGPA',
-			img: MicrocontrollerImage2,
-		},
-		{
-			id: 3,
-			title: 'Microcontroller Abstract',
-			img: MicrocontrollerImage3,
-		},
-	],
-	ProjectInfo: {
-		ClientHeading: 'About This Project',
-		CompanyInfo: [
+		ProjectImages: [
 			{
 				id: 1,
-				title: 'Level',
-				details: 'L3 First Semester',
+				title: 'Microcontroller',
+				img: MicrocontrollerImage1,
 			},
 			{
 				id: 2,
-				title: 'Class',
-				details: 'Digital Circuit Design',
-			},
-		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails: "The aim of tis project is to design and analyse a logical circuit (sequential and combinational) and a state diagram, and then performing simulations and synthesis on a programmable component.",
-		Technologies: [
-			{
-				title: 'Tools & Technologies',
-				techs: [
-					'VHDL',
-					'Xilinx Vivado',
-					'Artix-35T FPGA',
-				],
-			},
-		],
-		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
-			{
-				id: 1,
-				details:
-				"The Microcontroller project involved designing and analyzing a logic circuit (sequential and combinational) and state graph, followed by simulations and synthesis on a programmable component. The project aimed to distinguish the use cases of programmable components in comparison to CPUs, GPUs, ASICs, and MCUs.",
-			},
-			{
-				id: 2,
-				details:
-				"The project provided an opportunity to configure a Field-Programmable Gate Array (FPGA) and understand the various stages of an Electronic Design Automation (EDA) tool. Additionally, it involved describing, simulating, and synthesizing a combinational and sequential system using the VHDL (VHSIC Hardware Description Language) programming language.",
+				title: 'Microcontroller FGPA',
+				img: MicrocontrollerImage2,
 			},
 			{
 				id: 3,
-				details:
-				"The project focused on applying essential design rules for logical circuits and mastering optimization techniques for programmable components. By working on the Microcontroller project, I gained practical experience in VHDL and electronics, further strengthening my understanding of digital logic and programmable devices."
-			},
-			{
-				id: 4,
-				details:
-				"Overall, this project allowed me to develop skills in circuit design, VHDL programming, and the optimization of programmable components. It provided a solid foundation in understanding the inner workings of microcontrollers and their applications in various electronic systems.",
+				title: 'Microcontroller Abstract',
+				img: MicrocontrollerImage3,
 			},
 		],
-		SocialSharingHeading: 'See More',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Github',
-				icon: <FiGithub/>,
-				url: "https://github.com/Pernam75/Microcontroleur-VHDL",
-			},
-		],
+		ProjectInfo: {
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'L3 First Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Digital Circuit Design',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+			'The aim of this project is to design and analyze a logical circuit (sequential and combinational) and a state diagram, and then perform simulations and synthesis on a programmable component.',
+      		Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'VHDL',
+						'Xilinx Vivado',
+						'Artix-35T FPGA',
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					'The Microcontroller project involved designing and analyzing a logic circuit (sequential and combinational) and state graph, followed by simulations and synthesis on a programmable component. The project aimed to distinguish the use cases of programmable components in comparison to CPUs, GPUs, ASICs, and MCUs.',
+        		},
+				{
+					id: 2,
+					details:
+						'The project provided an opportunity to configure a Field-Programmable Gate Array (FPGA) and understand the various stages of an Electronic Design Automation (EDA) tool. Additionally, it involved describing, simulating, and synthesizing a combinational and sequential system using the VHDL (VHSIC Hardware Description Language) programming language.',
+				},
+				{
+					id: 3,
+					details:
+					'The project focused on applying essential design rules for logical circuits and mastering optimization techniques for programmable components. By working on the Microcontroller project, I gained practical experience in VHDL and electronics, further strengthening my understanding of digital logic and programmable devices.',
+				},
+				{
+					id: 4,
+					details:
+					'Overall, this project allowed me to develop skills in circuit design, VHDL programming, and the optimization of programmable components. It provided a solid foundation in understanding the inner workings of microcontrollers and their applications in various electronic systems.',
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Github',
+					icon: <FiGithub/>,
+					url: 'https://github.com/Pernam75/Microcontroleur-VHDL',
+				},
+			],
+		},
 		RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
@@ -736,12 +742,11 @@ const projectDatas = {
 					img: Image3,
 				},
 			],
-		}
-	},
+		},
 	},
 	"finite-automaton": {
 		ProjectHeader: {
-		title: 'Finite Automaton and Regular Expressions',
+		title: 'Finite Automaton and Regular Expression',
 		publishDate: 'May 8, 2021',
 		tags: 'Console Application / Mathematics',
 	},
@@ -819,7 +824,8 @@ const projectDatas = {
 				url: "https://github.com/Pernam75/finite-automatons",
 			},
 		],
-		RelatedProject: {
+    },
+	RelatedProject: {
 			title: 'Related Projects',
 			Projects: [
 				{
@@ -846,8 +852,119 @@ const projectDatas = {
 			],
 		}
 	},
-	},
-	
+    "floyd-warshall": {
+        ProjectHeader: {
+            title: 'Floyd-Warshall algorithm',
+            publishDate: 'Nov 8, 2021',
+            tags: 'Console Application / Mathematics',
+        },
+        ProjectImages: [
+            {
+                id: 1,
+                title: 'Floyd-Warshall algorithm',
+                img: FloydWarshallImage1,
+            },
+            {
+                id: 2,
+                title: 'Floyd-Warshall algorithm',
+                img: FloydWarshallImage2,
+            },
+            {
+                id: 3,
+                title: 'Floyd-Warshall algorithm',
+                img: FloydWarshallImage3,
+            },
+        ],
+        ProjectInfo: {
+            ClientHeading: 'About This Project',
+            CompanyInfo: [
+                {
+                    id: 1,
+                    title: 'Level',
+                    details: 'L3 First Semester',
+                },
+                {
+                    id: 2,
+                    title: 'Class',
+                    details: 'Graph Theory',
+                },
+            ],
+            ObjectivesHeading: 'Objective',
+            ObjectivesDetails: "",
+            Technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    techs: [
+                        "Python",
+                    ],
+                },
+            ],
+            ProjectDetailsHeading: 'Challenge',
+            ProjectDetails: [
+                {
+                    id: 1,
+                    details:
+                    "This implementation of the Floyd-Warshall algorithm is based on the Roy-Warshall algorithm, which is used to compute the transitive closure of a graph. However, in this case, the algorithm is modified to keep track of the shortest paths among all possible paths between two vertices, ensuring that only the paths with the lowest values are preserved.",
+                },
+                {
+                    id: 2,
+                    details:
+                    "The project includes several features such as the ability to read a graph from a file, print the graph, implement the Floyd-Warshall algorithm itself, detect absorbing circuits within the graph, and carry out the main processing steps.",
+                },
+                {
+                    id: 3,
+                    details:
+                    "The implementation is done using Python and follows the principles of object-oriented programming (OOP). This allows for a modular and organized code structure, making it easier to understand and maintain. By working on this project, I gained a deeper understanding of graph theory, graph algorithms, and the concept of shortest paths. It also honed my skills in Python programming and OOP.",
+                },
+                {
+                    id: 4,
+                    details:
+                    "Overall, the Floyd Warshall Implementation project showcases my ability to implement complex algorithms and solve graph-related problems. It demonstrates my proficiency in Python programming and my understanding of OOP principles. This project will be a valuable addition to my portfolio, highlighting my expertise in algorithmic problem-solving and graph analysis."
+                },
+            ],
+            SocialSharingHeading: 'See More',
+            SocialSharing: [
+                {
+                    id: 1,
+                    name: 'Github',
+                    icon: <FiGithub/>,
+                    url: "https://github.com/Pernam75/floyd_warshall_implementation",
+                },
+                {
+                    id: 2,
+                    name: 'Project Report',
+                    icon: <FiFileText/>,
+                    url: "https://efrei365net-my.sharepoint.com/:p:/g/personal/jules_rubin_efrei_net/EfFzCTyPdgVJk0u82ue2zdgBnQGl6DItp9bqWl4dyzBlnQ?e=tdaGIZ",
+                }
+            ],
+        },
+        RelatedProject: {
+            title: 'Related Projects',
+            Projects: [
+                {
+                    id: 1,
+                    title: 'Street Workout Helper',
+                    img: StreetWorkoutHelperImage1,
+                    projectKey: 'street-workout-helper',
+                },
+                {
+                    id: 2,
+                    title: 'Web Application',
+                    img: Image5,
+                },
+                {
+                    id: 3,
+                    title: 'UI Design',
+                    img: Image6,
+                },
+                {
+                    id: 4,
+                    title: 'Kabul Mobile App UI',
+                    img: Image3,
+                },
+            ],
+        }
+    },	
 };
 
 export const getSingleProjectData = ( projectKey ) => {

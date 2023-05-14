@@ -2,6 +2,10 @@ const selectOptions = [
 	"Website",
 	"Machine-Learning",
 	"Mobile Application",
+	"Mathematics",
+	"Console Application",
+	"Internship",
+	"Electronics",
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {

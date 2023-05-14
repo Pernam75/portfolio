@@ -12,6 +12,7 @@ import GeoCellImage1 from '../images/projects/GeoCell/geo-cell-1.jpg';
 import InternshipSportslabImage1 from '../images/projects/InternshipSportslab/internship-sportslab-1.jpg';
 import MicrocontrollerImage1 from '../images/projects/Microcontroller/microcontroller-1.jpg';
 import FiniteAutomatonImage1 from '../images/projects/FiniteAutomaton/finite-automaton-1.jpg';
+import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall-1.jpg';
 
 export const projectsData = [
 	{
@@ -52,15 +53,22 @@ export const projectsData = [
 	{
 		id: 12,
 		title: 'Microcontroller',
-		category: 'Electronic',
+		category: 'Electronics',
 		img: MicrocontrollerImage1,
 		projectKey: 'microcontroller',
 	},
 	{
 		id: 13,
-		title: 'Finite Automaton and Regular Expressions',
+		title: 'Finite Automaton',
 		category: 'Console Application / Mathematics',
 		img: FiniteAutomatonImage1,
 		projectKey: 'finite-automaton',
+	},
+	{
+		id: 14,
+		title: "Floyd-Warshall algorithm",
+		category: "Console Application / Mathematics",
+		img: FloydWarshallImage1,
+		projectKey: "floyd-warshall",
 	},
 ];

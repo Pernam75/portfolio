@@ -12,7 +12,7 @@ const ProjectSingle = ( props ) => {
 				delay: 0.15,
 			}}
 		>
-			<Link to="/projects/single-project" state={{ projectKey: props.projectKey }}
+			<Link to="/projects/project" state={{ projectKey: props.projectKey }}
 			aria-label="Single Project">
 				<div className="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark">
 					<div>
