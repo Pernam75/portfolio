@@ -1,14 +1,51 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
+import { useState } from 'react';
+import emailjs from "@emailjs/browser"
 
 const ContactForm = () => {
+	const [formData, setFormData] = useState({
+		name: '',
+		email: '',
+		subject: '',
+		message: ''
+	});
+	
+	  const handleInputChange = (e) => {
+		setFormData({
+			...formData,
+			[e.target.name]: e.target.value
+		});
+	};
+	
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		
+		// send email
+		emailjs.sendForm(
+			"service_acqlzcc",
+			"template_q1c0lh3",
+			e.target,
+			"e-VScFgwe27yHAsH4"
+		)
+		.then(
+			(result) => {
+				console.log(result.text);
+				alert("Message sent successfully!");
+			}
+		)
+		.catch(
+			(error) => {
+				console.log(error.text);
+				alert("Message failed to send!");
+			}
+		);
+	};
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
-					onSubmit={(e) => {
-						e.preventDefault();
-					}}
+					onSubmit={ handleSubmit }
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
 					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">
@@ -22,6 +59,8 @@ const ContactForm = () => {
 						inputName="name"
 						placeholderText="Your Name"
 						ariaLabelName="Name"
+						value={formData.name}
+						onChange={handleInputChange}
 					/>
 					<FormInput
 						inputLabel="Email"
@@ -31,6 +70,8 @@ const ContactForm = () => {
 						inputName="email"
 						placeholderText="Your email"
 						ariaLabelName="Email"
+						value={formData.email}
+						onChange={handleInputChange}
 					/>
 					<FormInput
 						inputLabel="Subject"
@@ -40,6 +81,8 @@ const ContactForm = () => {
 						inputName="subject"
 						placeholderText="Subject"
 						ariaLabelName="Subject"
+						value={formData.subject}
+						onChange={handleInputChange}
 					/>
 
 					<div className="mt-6">
@@ -56,6 +99,8 @@ const ContactForm = () => {
 							cols="14"
 							rows="6"
 							aria-label="Message"
+							value={formData.message}
+							onChange={handleInputChange}
 						></textarea>
 					</div>
 
