@@ -3,10 +3,13 @@ import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	"Website",
+	"Machine-Learning",
+	"Mobile Application",
+	"Mathematics",
+	"Console Application",
+	"Internship",
+	"Electronics",
 ];
 
 const HireMeModal = ({ onClose, onRequest }) => {
@@ -24,18 +27,12 @@ const HireMeModal = ({ onClose, onRequest }) => {
 			<main className="flex flex-col items-center justify-center h-full w-full">
 				<div className="modal-wrapper flex items-center z-30">
 					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
-						<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
-							<h5 className=" text-primary-dark dark:text-primary-light text-xl">
-								What project are you looking for?
-							</h5>
-							<button
-								onClick={onClose}
-								className="px-4 font-bold text-primary-dark dark:text-primary-light"
-							>
-								<FiX className="text-3xl" />
-							</button>
-						</div>
 						<div className="modal-body p-5 w-full h-full">
+							<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
+								<h5 className=" text-primary-dark dark:text-primary-light text-xl">
+									What project are you looking for?
+								</h5>
+							</div>
 							<form
 								onSubmit={(e) => {
 									e.preventDefault();
@@ -111,25 +108,19 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 										aria-label="Submit Request"
 									>
-										<Button title="Send Request" />
+										<Button title="Send Request"
+											onClick={onRequest}
+										/>
 									</span>
 								</div>
 							</form>
 						</div>
-						<div className="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right">
-							<span
-								onClick={onClose}
-								type="button"
-								className="px-4
-									sm:px-6
-									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
-									rounded-md
-									focus:ring-1 focus:ring-indigo-900 duration-500"
-								aria-label="Close Modal"
-							>
-								<Button title="Close" />
-							</span>
-						</div>
+						<button
+							onClick={onClose}
+							className="absolute top-0 right-0 p-5 focus:outline-none hover:bg-ternary-light dark:hover:bg-ternary-dark"
+						> 
+							<FiX className="text-3xl" />
+						</button>
 					</div>
 				</div>
 			</main>
