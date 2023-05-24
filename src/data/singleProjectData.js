@@ -1049,6 +1049,12 @@ const projectDatas = {
 					icon: <FiGithub/>,
 					url: "https://github.com/Pernam75/Machine-Learning-for-DDoS-attacks-detection",
 				},
+				{
+					id: 2,
+					name: 'Report',
+					icon: <FiFileText/>,
+					url: "https://efrei-paris-m1-ml-for-ddos.on.drv.tw/Host/Ayman_BEN_HAJJAJ_RUBIN_Jules_DAI_Project.html",
+				}
 			],
 		},
 		RelatedProject: {
