@@ -74,7 +74,7 @@ export const projectsData = [
 	},
 	{
 		id: 15,
-		title: 'Machine Learning for DDoS Attacks Detection',
+		title: 'DDoS Attacks Detection',
 		category: 'Machine-Learning',
 		img: MLforDDoSImage1,
 		projectKey: 'ml-for-ddos',
