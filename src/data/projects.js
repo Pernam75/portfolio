@@ -13,6 +13,7 @@ import InternshipSportslabImage1 from '../images/projects/InternshipSportslab/in
 import MicrocontrollerImage1 from '../images/projects/Microcontroller/microcontroller-1.jpg';
 import FiniteAutomatonImage1 from '../images/projects/FiniteAutomaton/finite-automaton-1.jpg';
 import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall-1.jpg';
+import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
 
 export const projectsData = [
 	{
@@ -70,5 +71,12 @@ export const projectsData = [
 		category: "Console Application / Mathematics",
 		img: FloydWarshallImage1,
 		projectKey: "floyd-warshall",
+	},
+	{
+		id: 15,
+		title: 'DDoS Attacks Detection',
+		category: 'Machine-Learning',
+		img: MLforDDoSImage1,
+		projectKey: 'ml-for-ddos',
 	},
 ];

@@ -35,6 +35,10 @@ import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall
 import FloydWarshallImage2 from '../images/projects/FloydWarshall/floyd-warshall-2.jpg';
 import FloydWarshallImage3 from '../images/projects/FloydWarshall/floyd-warshall-3.jpg';
 
+import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
+import MLforDDoSImage2 from '../images/projects/MLforDDoS/ml-for-ddos-2.jpg';
+import MLforDDoSImage3 from '../images/projects/MLforDDoS/ml-for-ddos-3.jpg';
+
 // Import icons
 import {
 	// FiFacebook,
@@ -964,7 +968,124 @@ const projectDatas = {
                 },
             ],
         }
-    },	
+    },
+	"ml-for-ddos": {
+		ProjectHeader: {
+			title: 'Machine Learning for DDoS Attacks Detection',
+			publishDate: 'May 24, 2023',
+			tags: 'Machine Learning / Cybersecurity',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Machine Learning for DDoS Attacks Detection',
+				img: MLforDDoSImage1,
+			},
+			{
+				id: 2,
+				title: 'Machine Learning for DDoS Attacks Detection',
+				img: MLforDDoSImage2,
+			},
+			{
+				id: 3,
+				title: 'Machine Learning for DDoS Attacks Detection',
+				img: MLforDDoSImage3,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'M1 Second Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Machine Learning II',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: "The objective of this project is to develop a machine learning model for detecting Distributed Denial of Service (DDoS) attacks in a network.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						"Python",
+						"Jupyter Notebook",
+						"Scikit-learn",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					"This project serves as the final project for the Machine Learning II course at EFREI Paris, specifically for the Master 1 Data Science & AI program in 2023. he chosen dataset for this study is the CIC-DDoS2019 dataset, curated by the Canadian Institute for Cybersecurity (CIC). This dataset provides a comprehensive collection of network traffic data, including both legitimate traffic and various types of DDoS attacks, such as UDP flood, ICMP flood, TCP SYN flood, and HTTP flood.",
+				},
+				{
+					id: 2,
+					details:
+					"The project involves the exploration and analysis of the CIC-DDoS2019 dataset, which consists of 78 features and 430K rows. The main goal is to leverage machine learning techniques to accurately detect and classify DDoS attacks based on the provided features. Additionally, the project aims to develop a method for distinguishing between benign and malicious network traffic.",
+				},
+				{
+					id: 3,
+					details:
+					"The project is implemented using Python programming language and Jupyter Notebook environment. The scikit-learn library is utilized for various tasks, including data preprocessing, feature dimensionality reduction using techniques like Principal Component Analysis (PCA), Kernel PCA, and t-SNE. The project also explores supervised learning approaches such as Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA) for multiclassification, as well as unsupervised learning techniques like k-Means, Gaussian Mixture Models (GMM), DBSCAN, and hierarchical clustering for clustering purposes. Other algorithms, including Decision Trees, K-Nearest Neighbors, and Random Forest, are also considered.",
+				},
+				{
+					id: 4,
+					details:
+					"This project provided an excellent opportunity to develop and enhance valuable skills in data preprocessing, feature engineering, machine learning model building, and evaluation. Through the implementation of Python programming, data analysis, and utilizing popular machine learning libraries, I gained proficiency in applying these techniques to real-world cybersecurity challenges. The project specifically focused on the detection of DDoS attacks, allowing me to deepen my understanding of cybersecurity concepts and develop practical knowledge in leveraging machine learning for threat detection. Overall, this project was both fascinating and rewarding, enabling me to acquire essential skills and insights in the field of cybersecurity and machine learning.",
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Github',
+					icon: <FiGithub/>,
+					url: "https://github.com/Pernam75/Machine-Learning-for-DDoS-attacks-detection",
+				},
+				{
+					id: 2,
+					name: 'Report',
+					icon: <FiFileText/>,
+					url: "https://efrei-paris-m1-ml-for-ddos.on.drv.tw/Host/Ayman_BEN_HAJJAJ_RUBIN_Jules_DAI_Project.html",
+				}
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'Street Workout Helper',
+					img: StreetWorkoutHelperImage1,
+					projectKey: 'street-workout-helper',
+				},
+				{
+					id: 2,
+					title: 'Web Application',
+					img: Image5,
+				},
+				{
+					id: 3,
+					title: 'UI Design',
+					img: Image6,
+				},
+				{
+					id: 4,
+					title: 'Kabul Mobile App UI',
+					img: Image3,
+				},
+			],
+		}
+	},
+
+
 };
 
 export const getSingleProjectData = ( projectKey ) => {
