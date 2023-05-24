@@ -900,6 +900,7 @@ const projectDatas = {
                     title: 'Tools & Technologies',
                     techs: [
                         "Python",
+						"Test Driven Development",
                     ],
                 },
             ],
