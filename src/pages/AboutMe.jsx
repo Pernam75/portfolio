@@ -1,5 +1,5 @@
 import AboutMeBio from '../components/about/AboutMeBio';
-import AboutMeTab from '../components/about/AboutMeTab';
+// import AboutMeTab from '../components/about/AboutMeTab';
 import { AboutMeProvider } from '../context/AboutMeContext';
 
 import { motion } from 'framer-motion';

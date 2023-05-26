@@ -11,7 +11,15 @@ const About = lazy(() => import('./pages/AboutMe'));
 const Contact = lazy(() => import('./pages/Contact.jsx'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
-const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+const MLforDDoS = lazy(() => import('./pages/MLforDDoS.jsx'));
+const FiniteAutomaton = lazy(() => import('./pages/FiniteAutomaton.jsx'));
+const FloydWarshall = lazy(() => import('./pages/FloydWarshall.jsx'));
+const GeoCell = lazy(() => import('./pages/GeoCell.jsx'));
+const GuideMe = lazy(() => import('./pages/GuideMe.jsx'));
+const MealMate = lazy(() => import('./pages/MealMate.jsx'));
+const Microcontroller = lazy(() => import('./pages/Microcontroller.jsx'));
+const Sportslab = lazy(() => import('./pages/Sportslab.jsx'));
+const StreetWorkout = lazy(() => import('./pages/StreetWorkout.jsx'));
 
 
 function App() {
@@ -26,8 +34,40 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route
-								path="projects/project"
-								element={<ProjectSingle />}
+								path="projects/ml-for-ddos"
+								element={<MLforDDoS />}
+							/>
+							<Route
+								path="projects/finite-automaton"
+								element={<FiniteAutomaton />}
+							/>
+							<Route
+								path="projects/floyd-warshall"
+								element={<FloydWarshall />}
+							/>
+							<Route
+								path="projects/geo-cell"
+								element={<GeoCell />}
+							/>
+							<Route
+								path="projects/guide-me"
+								element={<GuideMe />}
+							/>
+							<Route
+								path="projects/meal-mate"
+								element={<MealMate />}
+							/>
+							<Route
+								path="projects/microcontroller"
+								element={<Microcontroller />}
+							/>
+							<Route
+								path="projects/internship-sportslab"
+								element={<Sportslab />}
+							/>
+							<Route
+								path="projects/street-workout-helper"
+								element={<StreetWorkout />}
 							/>
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
