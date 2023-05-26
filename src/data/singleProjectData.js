@@ -132,7 +132,7 @@ const projectDatas = {
 				id: 2,
 				name: 'Website',
 				icon: <FiGlobe/>,
-				url: 'https://efrei-l2-street-workout-helper.on.drv.tw/Host/ProjetProgWeb/',
+				url: 'https://jules-rubin-projects-host.on.drv.tw/Host/ProjetProgWeb/',
 			}
 		],
 	},
@@ -1082,7 +1082,7 @@ const projectDatas = {
 					id: 2,
 					name: 'Report',
 					icon: <FiFileText/>,
-					url: "https://efrei-paris-m1-ml-for-ddos.on.drv.tw/Host/Ayman_BEN_HAJJAJ_RUBIN_Jules_DAI_Project.html",
+					url: "https://jules-rubin-projects-host.on.drv.tw/Host/Ayman_BEN_HAJJAJ_RUBIN_Jules_DAI_Project.html",
 				},
 				{
 					id: 3,
