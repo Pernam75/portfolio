@@ -1,8 +1,4 @@
 // Import images
-import Image3 from '../images/mobile-project-2.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-
 import StreetWorkoutHelperImage1 from '../images/projects/StreetWorkout/street-workout-helper-1.jpg';
 import StreetWorkoutHelperImage2 from '../images/projects/StreetWorkout/street-workout-helper-2.jpg';
 import StreetWorkoutHelperImage3 from '../images/projects/StreetWorkout/street-workout-helper-3.jpg';
@@ -164,7 +160,7 @@ const projectDatas = {
 	},
 	"guide-me": {
 		ProjectHeader: {
-		title: 'Guide Me',
+		title: 'GuideMe',
 		publishDate: 'Jan 9, 2022',
 		tags: 'UI / Frontend',
 	},
@@ -274,11 +270,13 @@ const projectDatas = {
 				id: 3,
 				title: 'Floyd Warshall',
 				img: FloydWarshallImage1,
+				projectKey: 'floyd-warshall',
 			},
 			{
 				id: 4,
 				title: 'Finite Automaton',
 				img: FiniteAutomatonImage1,
+				projectKey: 'finite-automaton',
 			},
 		],
 	},
@@ -640,7 +638,7 @@ const projectDatas = {
 				id: 3,
 				title: 'GeoCell',
 				img: GeoCellImage1,
-				projectKey: 'geocell',
+				projectKey: 'geo-cell',
 			},
 			{
 				id: 4,
@@ -745,18 +743,21 @@ const projectDatas = {
 				},
 				{
 					id: 2,
-					title: 'Web Application',
-					img: Image5,
+					title: 'Finite Automaton',
+					img: FiniteAutomatonImage1,
+					projectKey: 'finite-automaton',
 				},
 				{
 					id: 3,
-					title: 'UI Design',
-					img: Image6,
+					title: 'ML for DDoS',
+					img: MLforDDoSImage1,
+					projectKey: 'ml-for-ddos',
 				},
 				{
 					id: 4,
-					title: 'Kabul Mobile App UI',
-					img: Image3,
+					title: 'Floyd Warshall',
+					img: FloydWarshallImage3,
+					projectKey: 'floyd-warshall',
 				},
 			],
 		},
@@ -847,24 +848,27 @@ const projectDatas = {
 			Projects: [
 				{
 					id: 1,
+					title: 'Floyd Warshall',
+					img: FloydWarshallImage1,
+					projectKey: 'floyd-warshall',
+				},
+				{
+					id: 2,
+					title: 'Microcontroller',
+					img: MicrocontrollerImage1,
+					projectKey: 'microcontroller',
+				},
+				{
+					id: 3,
 					title: 'Street Workout Helper',
 					img: StreetWorkoutHelperImage1,
 					projectKey: 'street-workout-helper',
 				},
 				{
-					id: 2,
-					title: 'Web Application',
-					img: Image5,
-				},
-				{
-					id: 3,
-					title: 'UI Design',
-					img: Image6,
-				},
-				{
 					id: 4,
-					title: 'Kabul Mobile App UI',
-					img: Image3,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
 				},
 			],
 		}
@@ -961,25 +965,28 @@ const projectDatas = {
             Projects: [
                 {
                     id: 1,
+                    title: 'Finite Automaton',
+					img: FiniteAutomatonImage1,
+					projectKey: 'finite-automaton',
+                },
+                {
+                    id: 2,
+                    title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
+				},
+                {
+                    id: 3,
                     title: 'Street Workout Helper',
                     img: StreetWorkoutHelperImage1,
                     projectKey: 'street-workout-helper',
                 },
-                {
-                    id: 2,
-                    title: 'Web Application',
-                    img: Image5,
-                },
-                {
-                    id: 3,
-                    title: 'UI Design',
-                    img: Image6,
-                },
-                {
-                    id: 4,
-                    title: 'Kabul Mobile App UI',
-                    img: Image3,
-                },
+				{
+					id: 4,
+					title: 'GeoCell',
+					img: GeoCellImage1,
+					projectKey: 'geo-cell',
+				},
             ],
         }
     },
@@ -1076,24 +1083,27 @@ const projectDatas = {
 			Projects: [
 				{
 					id: 1,
-					title: 'Street Workout Helper',
-					img: StreetWorkoutHelperImage1,
-					projectKey: 'street-workout-helper',
+					title: 'GeoCell',
+					img: GeoCellImage1,
+					projectKey: 'geo-cell',
 				},
 				{
 					id: 2,
-					title: 'Web Application',
-					img: Image5,
+					title: 'Internship at Sportslab',
+					img: InternshipSportslabImage1,
+					projectKey: 'internship-sportslab',
 				},
 				{
 					id: 3,
-					title: 'UI Design',
-					img: Image6,
+					title: 'MealMate',
+					img: MealMateImage1,
+					projectKey: 'meal-mate',
 				},
 				{
 					id: 4,
-					title: 'Kabul Mobile App UI',
-					img: Image3,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
 				},
 			],
 		}

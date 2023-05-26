@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom';
 import ProjectGallery from '../components/projects/ProjectGallery';
 import ProjectHeader from '../components/projects/ProjectHeader';
 import ProjectInfo from '../components/projects/ProjectInfo';
@@ -6,10 +5,9 @@ import ProjectRelatedProjects from '../components/projects/ProjectRelatedProject
 import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { motion } from 'framer-motion';
 
-	const ProjectSingle = ( props ) => {
-		let { state } = useLocation();
-		console.log( "ProjectSingle.jsx: ProjectSingle: location:", state)
-		console.log( "ProjectSingle.jsx: ProjectSingle: page:", state.projectKey)
+const projectKey = "microcontroller";
+
+const ProjectSingle = ( props ) => {
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -21,7 +19,7 @@ import { motion } from 'framer-motion';
 			}}
 			className="container mx-auto mt-5 sm:mt-10"
 		>
-			<SingleProjectProvider projectKey={ state.projectKey }>
+			<SingleProjectProvider projectKey={ projectKey }>
 				<ProjectHeader />
 				<ProjectGallery />
 				<ProjectInfo />
