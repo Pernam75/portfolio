@@ -48,6 +48,8 @@ import {
 	// FiYoutube,
 } from 'react-icons/fi';
 
+import { SiGooglecolab, SiKaggle } from 'react-icons/si';
+
 const projectDatas = {
 	"street-workout-helper": {
 		ProjectHeader: {
@@ -1081,6 +1083,18 @@ const projectDatas = {
 					name: 'Report',
 					icon: <FiFileText/>,
 					url: "https://efrei-paris-m1-ml-for-ddos.on.drv.tw/Host/Ayman_BEN_HAJJAJ_RUBIN_Jules_DAI_Project.html",
+				},
+				{
+					id: 3,
+					name: 'Google Colab',
+					icon: <SiGooglecolab/>,
+					url: "https://colab.research.google.com/drive/1o36KmwwLCjqMnoDYOTc_OGMIjlShnFd_?usp=sharing",
+				},
+				{
+					id: 4,
+					name: 'CIC-DDoS2019 Dataset',
+					icon: <SiKaggle/>,
+					url: "https://www.kaggle.com/datasets/dhoogla/cicddos2019",
 				}
 			],
 		},
