@@ -126,6 +126,12 @@ const projectDatas = {
 				icon: <FiGithub/>,
 				url: 'https://github.com/Pernam75/ProjetProgWeb',
 			},
+			{
+				id: 2,
+				name: 'Website',
+				icon: <FiGlobe/>,
+				url: 'https://efrei-l2-street-workout-helper.on.drv.tw/Host/ProjetProgWeb/',
+			}
 		],
 	},
 	RelatedProject: {
