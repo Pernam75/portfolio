@@ -35,6 +35,14 @@ import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
 import MLforDDoSImage2 from '../images/projects/MLforDDoS/ml-for-ddos-2.jpg';
 import MLforDDoSImage3 from '../images/projects/MLforDDoS/ml-for-ddos-3.jpg';
 
+import SVMforHeartFailureImage1 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-1.jpg';
+import SVMforHeartFailureImage2 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-2.jpg';
+import SVMforHeartFailureImage3 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-3.jpg';
+
+import HackathonEfreiImage1 from '../images/projects/HackathonEFREI/hackathon-efrei-1.jpg';
+import HackathonEfreiImage2 from '../images/projects/HackathonEFREI/hackathon-efrei-2.jpg';
+import HackathonEfreiImage3 from '../images/projects/HackathonEFREI/hackathon-efrei-3.jpg';
+
 // Import icons
 import {
 	// FiFacebook,
@@ -49,6 +57,8 @@ import {
 } from 'react-icons/fi';
 
 import { SiGooglecolab, SiKaggle } from 'react-icons/si';
+
+import { HiOutlinePresentationChartBar} from 'react-icons/hi';
 
 const projectDatas = {
 	"street-workout-helper": {
@@ -1112,6 +1122,264 @@ const projectDatas = {
 					title: 'Internship at Sportslab',
 					img: InternshipSportslabImage1,
 					projectKey: 'internship-sportslab',
+				},
+				{
+					id: 3,
+					title: 'MealMate',
+					img: MealMateImage1,
+					projectKey: 'meal-mate',
+				},
+				{
+					id: 4,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
+				},
+			],
+		}
+	},
+	"svm-for-heart-failure": {
+		ProjectHeader: {
+			title: 'SVM for Heart Failure Detection',
+			publishDate: 'June 14, 2023',
+			tags: 'Machine Learning / Cybersecurity',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'SVM for Heart Failure Detection',
+				img: SVMforHeartFailureImage1,
+			},
+			{
+				id: 2,
+				title: 'SVM for Heart Failure Detection',
+				img: SVMforHeartFailureImage2,
+			},
+			{
+				id: 3,
+				title: 'SVM for Heart Failure Detection',
+				img: SVMforHeartFailureImage3,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'M1 Second Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Convex Optimization',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: "The objective of this project is to develop a machine learning from scratch and understand the mathematical concepts behind it for detecting heart failure.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						"Python",
+						"Jupyter Notebook",
+						"Scikit-learn",
+						"Karush-Kuhn-Tucker Theorem",
+						"Convex Optimization",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					"The SVM for Heart Failure Detection project focuses on utilizing the Support Vector Machine (SVM) model to detect heart failure using a specific dataset. The chosen dataset contains relevant features related to heart failure, and the objective is to develop a machine learning model that accurately classifies instances into heart failure or non-heart failure categories.",
+				},
+				{
+					id: 2,
+					details:
+					"In this project, we implemented the SVM algorithm from scratch, allowing us to have a deep understanding of its inner workings. By developing the SVM algorithm ourselves, we gained insights into the underlying mathematical concepts and optimization techniques involved in SVM training. This hands-on approach enhanced our knowledge of machine learning algorithms and their implementation.",
+				},
+				{
+					id: 3,
+					details:
+					"One of the key advantages of using the SVM model for heart failure detection is its ability to handle non-linear data through the use of the kernel trick. By transforming the data into a higher-dimensional space, SVM can effectively separate heart failure instances from non-heart failure instances. Additionally, SVM is known for its robustness against overfitting, making it suitable for handling complex classification tasks.",
+				},
+				{
+					id: 4,
+					details:
+					"Through this project, we developed skills in algorithm implementation, optimization techniques, and model evaluation. We also gained a deeper understanding of the SVM model, its strengths, and limitations. This project demonstrates our expertise in utilizing SVM for heart failure detection and highlights our ability to implement machine learning algorithms from scratch, showcasing our proficiency in Python programming and algorithmic understanding.",
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Github',
+					icon: <FiGithub/>,
+					url: "https://github.com/Pernam75/SVM-for-Heart-Failure-Detections",
+				},
+				{
+					id: 2,
+					name: 'Report',
+					icon: <FiFileText/>,
+					url: "https://jules-rubin-projects-host.on.drv.tw/Host/SVM.html",
+				},
+				{
+					id: 3,
+					name: 'Google Colab',
+					icon: <SiGooglecolab/>,
+					url: "https://colab.research.google.com/drive/1hyMShF1xgVUPnSg9ubMES1t7j4947MOx?usp=sharing",
+				},
+				{
+					id: 4,
+					name: 'CIC-DDoS2019 Dataset',
+					icon: <SiKaggle/>,
+					url: "https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data",
+				},
+				{
+					id: 5,
+					name: 'Presentation',
+					icon: <HiOutlinePresentationChartBar/>,
+					url: "https://efrei365net-my.sharepoint.com/:b:/g/personal/jules_rubin_efrei_net/EW6Rak_ch8ZPpbUN1gaJ1bsB6aI7vhEXLWWXFU8le9kCbA?e=G2wUcG"
+				},
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'ML for DDoS',
+					img: MLforDDoSImage1,
+					projectKey: 'ml-for-ddos',
+				},
+				{
+					id: 2,
+					title: 'Floyd Warshall',
+					img: FloydWarshallImage1,
+					projectKey: 'floyd-warshall',
+				},
+				{
+					id: 3,
+					title: 'MealMate',
+					img: MealMateImage1,
+					projectKey: 'meal-mate',
+				},
+				{
+					id: 4,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
+				},
+			],
+		}
+	},
+	"hackathon-efrei": {
+		ProjectHeader: {
+			title: 'Cloud Computing Hackathon',
+			publishDate: 'June 13, 2023',
+			tags: 'Machine Learning / Cloud Computing',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Cloud Computing Hackathon',
+				img: HackathonEfreiImage1,
+			},
+			{
+				id: 2,
+				title: 'Cloud Computing Hackathon',
+				img: HackathonEfreiImage2,
+			},
+			{
+				id: 3,
+				title: 'Cloud Computing Hackathon',
+				img: HackathonEfreiImage3,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'M1 Second Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Cloud Computing',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: "The objective of this project is to use Machine-Learning to predict the carbon emmission of a country and to use Azure and Cloud Computing to deploy the model.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						"Python",
+						"Jupyter Notebook",
+						"Scikit-learn",
+						"Microsoft Azure",
+						"Cloud Computing",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					"The Hackathon EFREI project focused on the Greenhouse Gas Prediction challenge, where the objective was to develop an application that predicts future levels of greenhouse gas emissions by considering emerging trends in energy creation. We utilized various technologies such as Python, Jupyter Notebook, Scikit-learn, Microsoft Azure, Cloud Computing, and Streamlit to create an innovative solution.",
+				},
+				{
+					id: 2,
+					details:
+					"Our team developed a Streamlit application hosted on Azure that incorporates machine learning models for predicting future carbon emissions of countries. The application offers short-term predictions using linear regression and long-term predictions utilizing a time series approach over a 10-year period. By analyzing historical energy usage data, the model provides accurate forecasts of carbon emissions, helping countries make informed decisions regarding their energy policies and sustainability goals.",
+				},
+				{
+					id: 3,
+					details:
+					"Although our initial plan included the development of a GPT (Generative Pre-trained Transformer) application using the Azure databricks-dolly 2.0 model to explain major changes in energy mixes of countries, we were unable to complete this aspect within the given timeframe. Nonetheless, our focus on leveraging Azure technologies demonstrated our proficiency in utilizing cloud computing resources to create accurate machine learning models and valuable applications in the Green IT domain.",
+				},
+				{
+					id: 4,
+					details:
+					"This Hackathon EFREI project allowed us to showcase our expertise in data analysis, machine learning modeling, and application development. By leveraging Python, Jupyter Notebook, Scikit-learn, Microsoft Azure, and Streamlit, we created an impactful solution that empowers countries to make informed decisions in reducing greenhouse gas emissions and transitioning to cleaner energy sources.",
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Streamlit',
+					icon: <FiGlobe/>,
+					url: "http://streamlitapphackathonefrei.azurewebsites.net/",
+				},
+				{
+					id: 2,
+					name: 'Presentation',
+					icon: <HiOutlinePresentationChartBar/>,
+					url: "https://efrei365net-my.sharepoint.com/:b:/g/personal/jules_rubin_efrei_net/EeGCTjGwlh5Ovg3ClIoB2-0BPXjWC6yyQZL_u2fb00C6iA?e=T5hCaa"
+				},
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'ML for DDoS',
+					img: MLforDDoSImage1,
+					projectKey: 'ml-for-ddos',
+				},
+				{
+					id: 2,
+					title: 'SVN for Heart Failure',
+					img: SVMforHeartFailureImage1,
+					projectKey: 'svm-for-heart-failure',
 				},
 				{
 					id: 3,

@@ -20,6 +20,8 @@ const MealMate = lazy(() => import('./pages/MealMate.jsx'));
 const Microcontroller = lazy(() => import('./pages/Microcontroller.jsx'));
 const Sportslab = lazy(() => import('./pages/Sportslab.jsx'));
 const StreetWorkout = lazy(() => import('./pages/StreetWorkout.jsx'));
+const SVMforHeartFailure = lazy(() => import('./pages/SVMforHeartFailure.jsx'));
+const HackathonEFREI = lazy(() => import('./pages/HackathonEFREI.jsx'));
 
 
 function App() {
@@ -69,6 +71,13 @@ function App() {
 								path="projects/street-workout-helper"
 								element={<StreetWorkout />}
 							/>
+							<Route path="projects/SVM-for-heart-failure"
+								element={<SVMforHeartFailure />}
+							/>
+							<Route path="projects/hackathon-efrei"
+								element={<HackathonEFREI />}
+							/>
+
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
 						</Routes>
