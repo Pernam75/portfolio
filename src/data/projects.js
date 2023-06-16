@@ -8,6 +8,9 @@ import MicrocontrollerImage1 from '../images/projects/Microcontroller/microcontr
 import FiniteAutomatonImage1 from '../images/projects/FiniteAutomaton/finite-automaton-1.jpg';
 import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall-1.jpg';
 import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
+import SVMforHeartFailureImage1 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-1.jpg';
+import HackathonEFREIImage1 from '../images/projects/HackathonEFREI/hackathon-efrei-1.jpg';
+
 
 
 const nonOrderedProjectsData = [
@@ -74,6 +77,20 @@ const nonOrderedProjectsData = [
 		img: MLforDDoSImage1,
 		projectKey: 'ml-for-ddos',
 	},
+	{
+		id: 9,
+		title: 'SVM for Heart failure Detection',
+		category: 'Machine-Learning / Mathematics',
+		img: SVMforHeartFailureImage1,
+		projectKey: 'svm-for-heart-failure',
+	},
+	{
+		id: 10,
+		title: 'Hackathon Efrei',
+		category: 'Machine-Learning / Cloud Computing',
+		img: HackathonEFREIImage1,
+		projectKey: 'hackathon-efrei',
+	}
 ];
 
 // export the array in the inverse order
