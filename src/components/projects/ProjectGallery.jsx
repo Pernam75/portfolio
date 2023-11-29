@@ -7,7 +7,6 @@ const ProjectGallery = () => {
 	return (
 		<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
 			{singleProjectData.ProjectImages.map((project) => {
-				console.log("hello", project.img);
 				// if project.img is a video, render a video tag instead of an image tag
 				if (project.img.includes("mp4")) {
 					return (
