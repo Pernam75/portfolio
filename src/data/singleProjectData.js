@@ -43,6 +43,10 @@ import HackathonEfreiImage1 from '../images/projects/HackathonEFREI/hackathon-ef
 import HackathonEfreiImage2 from '../images/projects/HackathonEFREI/hackathon-efrei-2.jpg';
 import HackathonEfreiImage3 from '../images/projects/HackathonEFREI/hackathon-efrei-3.jpg';
 
+import SportVisionImage1 from '../images/projects/Sportvision/sportvision-1.jpg';
+import SportVisionImage2 from '../images/projects/Sportvision/sportvision-2.jpg';
+import SportVisionImage3 from '../images/projects/Sportvision/sportvision-3.mp4';
+
 // Import icons
 import {
 	// FiFacebook,
@@ -50,6 +54,8 @@ import {
 	FiFileText,
 	FiVideo,
 	FiGlobe,
+	FiGitlab,
+	FiDatabase,
 	// FiInstagram,
 	FiLinkedin,
 	// FiTwitter,
@@ -1377,9 +1383,132 @@ const projectDatas = {
 				},
 				{
 					id: 2,
-					title: 'SVN for Heart Failure',
+					title: 'SVM for Heart Failure',
 					img: SVMforHeartFailureImage1,
 					projectKey: 'svm-for-heart-failure',
+				},
+				{
+					id: 3,
+					title: 'MealMate',
+					img: MealMateImage1,
+					projectKey: 'meal-mate',
+				},
+				{
+					id: 4,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
+				},
+			],
+		}
+	},
+	"sportvision": {
+		ProjectHeader: {
+			title: 'SportVision',
+			publishDate: 'June 14, 2023',
+			tags: 'Machine Learning / Computer Vision / Mobile Application',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'SportVision',
+				img: SportVisionImage1,
+			},
+			{
+				id: 2,
+				title: 'SportVision',
+				img: SportVisionImage2,
+			},
+			{
+				id: 3,
+				title: 'SportVision',
+				img: SportVisionImage3,
+			},
+		],
+		ProjectInfo: {
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'M1 Second Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Transversal Project',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: "The objective of this project is to develop a mobile application that uses machine learning and computer vision to detect the movement of a person and to give him feedback on his sport performance.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						"Python",
+						"AlphaPose & MotionBert",
+						"Machine Learning",
+						"Computer Vision",
+						"React Native",
+						"AWS S3",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					"The Sportvision project emerged from a desire to empower athletes and coaches seeking performance improvement and injury risk reduction. The primary objective was to create a tool that analyzes sports videos, detects incorrect movements, and provides users with constructive feedback. The motivation behind Sportvision was to address the challenge faced by beginners sports player who struggle to identify and correct subtle flaws in execution, hindering skill improvement and increasing the risk of injury.",
+				},
+				{
+					id: 2,
+					details:
+					"In line with agile project management principles, we adopted the Scrum methodology, with my role as Scrum Master facilitating efficient collaboration and progress tracking. The development process involved creating a seamless user experience, allowing individuals to capture videos of their performances. These videos were securely stored on AWS S3, enabling users to track their historical data. Leveraging an AWS-hosted Flask API and the OpenPose model, we extracted temporal three-dimensional coordinates from the videos. The MotionBert model was then employed to generate a 3D avatar showcasing the subject's movements. Finally, we employed a machine learning model trained on the THETIS dataset to classify the service as either good or in need of improvement.",
+				},
+				{
+					id: 3,
+					details:
+					"The technical realization of Sportvision underscores our proficiency in integrating diverse technologies to address a specific need within the sports community. Beyond the technical aspects, the project provided valuable insights into project management methodologies, sharpening our ability to deliver impactful solutions that enhance athletic performance and coaching effectiveness. Sportvision stands as a testament to our commitment to leveraging technology for positive outcomes in the realm of sports analysis and skill development.",
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Gitlab',
+					icon: <FiGitlab/>,
+					url: "https://gitlab.com/liochem/sportvision",
+				},
+				{
+					id: 2,
+					name: 'Presentation',
+					icon: <HiOutlinePresentationChartBar/>,
+					url: "https://efrei365net-my.sharepoint.com/:p:/g/personal/liora_chemla_efrei_net/EXZ1U2UiGXhHo45fXCp5TI4B4aRn-3xcEhyVnz0jIjiJHw?e=sct4zb",
+				},
+				{
+					id: 3,
+					name: 'THETIS Dataset',
+					icon: <FiDatabase/>,
+					url: "http://thetis.image.ece.ntua.gr/",
+				},
+
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'ML for DDoS',
+					img: MLforDDoSImage1,
+					projectKey: 'ml-for-ddos',
+				},
+				{
+					id: 2,
+					title: 'Internship at Sportslab',
+					img: InternshipSportslabImage1,
+					projectKey: 'internship-sportslab',
 				},
 				{
 					id: 3,
