@@ -10,6 +10,7 @@ import FloydWarshallImage1 from '../images/projects/FloydWarshall/floyd-warshall
 import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
 import SVMforHeartFailureImage1 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-1.jpg';
 import HackathonEFREIImage1 from '../images/projects/HackathonEFREI/hackathon-efrei-1.jpg';
+import SportvisionImage1 from '../images/projects/Sportvision/sportvision-1.jpg';
 
 
 
@@ -90,7 +91,14 @@ const nonOrderedProjectsData = [
 		category: 'Machine-Learning / Cloud Computing',
 		img: HackathonEFREIImage1,
 		projectKey: 'hackathon-efrei',
-	}
+	},
+	{
+		id: 11,
+		title: 'Sportvision',
+		category: 'Machine-Learning / Mobile Application',
+		img: SportvisionImage1,
+		projectKey: 'sportvision',
+	},
 ];
 
 // export the array in the inverse order
