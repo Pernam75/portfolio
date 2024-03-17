@@ -11,6 +11,7 @@ import MLforDDoSImage1 from '../images/projects/MLforDDoS/ml-for-ddos-1.jpg';
 import SVMforHeartFailureImage1 from '../images/projects/SVMforHeartFailure/svm-for-heart-failure-1.jpg';
 import HackathonEFREIImage1 from '../images/projects/HackathonEFREI/hackathon-efrei-1.jpg';
 import SportvisionImage1 from '../images/projects/Sportvision/sportvision-1.jpg';
+import WikipediaSearchEngineImage1 from '../images/projects/WikipediaSearchEngine/wikipedia-search-engine-1.jpg';
 
 
 
@@ -99,6 +100,13 @@ const nonOrderedProjectsData = [
 		img: SportvisionImage1,
 		projectKey: 'sportvision',
 	},
+	{
+		id: 12,
+		title: 'Wikipédia Search Engine',
+		category: 'NLP / Web Scraping',
+		img: WikipediaSearchEngineImage1,
+		projectKey: 'wikipedia-search-engine',
+	}
 ];
 
 // export the array in the inverse order
