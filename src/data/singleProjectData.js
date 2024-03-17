@@ -47,6 +47,10 @@ import SportVisionImage1 from '../images/projects/Sportvision/sportvision-1.jpg'
 import SportVisionImage2 from '../images/projects/Sportvision/sportvision-2.jpg';
 import SportVisionImage3 from '../images/projects/Sportvision/sportvision-3.mp4';
 
+import WikipediaSearchEngineImage1 from '../images/projects/WikipediaSearchEngine/wikipedia-search-engine-1.jpg';
+import WikipediaSearchEngineImage2 from '../images/projects/WikipediaSearchEngine/wikipedia-search-engine-2.jpg';
+import WikipediaSearchEngineImage3 from '../images/projects/WikipediaSearchEngine/wikipedia-search-engine-3.jpg';
+
 // Import icons
 import {
 	// FiFacebook,
@@ -1525,8 +1529,114 @@ const projectDatas = {
 			],
 		}
 	},
-
-
+	"wikipedia-search-engine": {
+		ProjectHeader:{
+			title: 'Wikipedia Search Engine',
+			publishDate: 'February 6, 2024',
+			tags: 'NLP / Web Scraping',
+		},
+		ProjectImages: [
+			{
+				id: 1,
+				title: 'Wikipedia Search Engine',
+				img: WikipediaSearchEngineImage1,
+			},
+			{
+				id: 2,
+				title: 'Wikipedia Search Engine',
+				img: WikipediaSearchEngineImage2,
+			},
+			{
+				id: 3,
+				title: 'Wikipedia Search Engine',
+				img: WikipediaSearchEngineImage3,
+			},
+		],
+		ProjectInfo:{
+			ClientHeading: 'About This Project',
+			CompanyInfo: [
+				{
+					id: 1,
+					title: 'Level',
+					details: 'M2 Second Semester',
+				},
+				{
+					id: 2,
+					title: 'Class',
+					details: 'Natural Language Processing',
+				},
+			],
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails: "The objective of this project is to develop a search engine that uses Natural Language Processing to get an efficient search result from Wikipedia articles.",
+			Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						"Python",
+						"Jupyter Notebook",
+						"Natural Language Processing",
+						"Web Scraping",
+					],
+				},
+			],
+			ProjectDetailsHeading: 'Challenge',
+			ProjectDetails: [
+				{
+					id: 1,
+					details:
+					"To perform an efficient Wikipedia search, we first needed to scrap datas from wikipedia website. We decided to create our own scrapper even if some python librairies provide a readable and easy scrapping. Through a systematic approach, our project extracts valuable information from the web, ensuring the data is structured and cleaned for optimal performance. This meticulous process sets the foundation for accurate search results and efficient information retrieval.",
+				},
+				{
+					id: 2,
+					details:
+					"The search engine utilizes n-grams and indexing techniques to enhance search capabilities, allowing users to find relevant Wikipedia articles quickly and effectively. By extracting features like n-grams and metadata from the text, the search engine creates a robust index that enables precise matching with user queries. This advanced functionality not only streamlines the search process but also improves the overall user experience by providing tailored and accurate search results."
+				},
+				{
+					id: 3,
+					details:
+					"Participating in the development of the Wikipedia Search Engine project offers significant benefits for academic and professional growth in the field of Natural Language Processing. By engaging in tasks such as data scrapping, cleaning, and implementing search algorithms, we gain hands-on experience in real-world applications of NLP techniques. This project helped us to develop essential skills in data processing, feature engineering, and machine learning model training, fostering a deeper understanding of NLP concepts and their practical implications.",
+				},
+			],
+			SocialSharingHeading: 'See More',
+			SocialSharing: [
+				{
+					id: 1,
+					name: 'Github',
+					icon: <FiGithub/>,
+					url: "https://github.com/Pernam75/nlp-wikipedia-search-engine",
+				},
+			],
+		},
+		RelatedProject: {
+			title: 'Related Projects',
+			Projects: [
+				{
+					id: 1,
+					title: 'ML for DDoS',
+					img: MLforDDoSImage1,
+					projectKey: 'ml-for-ddos',
+				},
+				{
+					id: 2,
+					title: 'SVM for Heart Failure',
+					img: SVMforHeartFailureImage1,
+					projectKey: 'svm-for-heart-failure',
+				},
+				{
+					id: 3,
+					title: 'MealMate',
+					img: MealMateImage1,
+					projectKey: 'meal-mate',
+				},
+				{
+					id: 4,
+					title: 'GuideMe',
+					img: GuideMeImage1,
+					projectKey: 'guide-me',
+				},
+			],
+		}
+	},
 };
 
 export const getSingleProjectData = ( projectKey ) => {
