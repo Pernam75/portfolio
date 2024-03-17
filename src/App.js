@@ -23,6 +23,7 @@ const StreetWorkout = lazy(() => import('./pages/StreetWorkout.jsx'));
 const SVMforHeartFailure = lazy(() => import('./pages/SVMforHeartFailure.jsx'));
 const HackathonEFREI = lazy(() => import('./pages/HackathonEFREI.jsx'));
 const Sportvision = lazy(() => import('./pages/Sportvision.jsx'));
+const WikipediaSearchEngine = lazy(() => import('./pages/WikipediaSearchEngine.jsx'));
 
 
 function App() {
@@ -80,6 +81,10 @@ function App() {
 							/>
 							<Route path="projects/sportvision"
 								element={<Sportvision />}
+							/>
+							<Route
+								path="projects/wikipedia-search-engine"
+								element={<WikipediaSearchEngine />}
 							/>
 							<Route path="about" element={<About />} />
 							<Route path="contact" element={<Contact />} />
