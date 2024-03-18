@@ -1,4 +1,6 @@
 const selectOptions = [
+	"NLP",
+	"Web Scraping",
 	"Website",
 	"Machine-Learning",
 	"Mobile Application",
